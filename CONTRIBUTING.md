@@ -4,6 +4,8 @@ When contributing to this repository, please first discuss the change you wish t
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 ## Getting Started
+- Before you start the contributions, fork the repo first!
+- Install all the dependencies to set-up development environment
 
 ## Pull Request Process
 
