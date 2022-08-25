@@ -6,6 +6,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Getting Started
 - Before you start the contributions, fork the repo first!
 - Install all the dependencies to set-up development environment
+- Checkout [README.md](/README.md)
 
 ## Pull Request Process
 
