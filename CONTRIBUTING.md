@@ -12,4 +12,4 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 - Ensure any install or build dependencies, such as `node modules` are ignored in `.gitIgnore` file before the end of the layer when doing a build.
 - Keep the docs update with any new changes
-- Do not push all new commits into single branch, instead push code with new branch with relevent name. For ex. to push commits as new feature create branch with name `feature` and then create new PR
+- Do not push all new commits into single branch, instead push code with new branch with relevent name. For ex. to push commits as new feature create branch with name `feature` and then create new Pull Request
