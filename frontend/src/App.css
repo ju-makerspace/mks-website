@@ -21,6 +21,11 @@ navbar ul li {
   font-size: 1.5rem;
 }
 
+navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 navbar img {
   margin-left: 30px;
   height: 3rem;
