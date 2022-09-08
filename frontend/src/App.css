@@ -35,10 +35,9 @@ navbar img {
 /* hero CSS */
 .hero {
   position: absolute;
-  width: 100%;
+  width: 98%;
   height: 716.11px;
   margin-left: 30px;
-  margin-right: 30px;
   top: 10rem;
 }
 
@@ -84,8 +83,101 @@ navbar img {
 
 .laptop {
   position: absolute;
-  left: 75.76%;
-  right: 16.89%;
+  right: 20%;
   top: 83.61%;
   bottom: 0%;
+}
+
+/* Domain CSS */
+.domain {
+  position: absolute;
+  width: 1193px;
+  height: 803.98px;
+  left: 267px;
+  top: 50rem;
+}
+
+.domain-text {
+  position: absolute;
+  left: 15%;
+  right: 30%;
+  top: 35.68%;
+  bottom: 31.77%;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 85%;
+  /* or 68px */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.domain-text .grad2 {
+  background: linear-gradient(270deg, #5900B1 0%, #C00057 57.6%, #FF0000 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.domain_list {
+  /* display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  margin-left: -10rem; */
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 35rem;
+}
+
+.domain_item {
+  /* border: 2px solid black; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 295.39px;
+  height: 120.77px;
+  left: 267px;
+  top: 1594.2px;
+
+  background: #000000;
+  border-radius: 40.8003px;
+  color: white;
+
+  margin: 1.5rem;
+
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48.8019px;
+  line-height: 65px;
+}
+
+.domain_desc {
+  position: absolute;
+  width: 100%;
+  height: 80.79px;
+  left: 3rem;
+  top: 58rem;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000
+}
+
+.domain_desc span {
+  margin-left: 1rem;
 }
