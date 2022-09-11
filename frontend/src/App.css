@@ -91,16 +91,16 @@ navbar img {
 /* Domain CSS */
 .domain {
   position: absolute;
-  width: 1193px;
-  height: 803.98px;
-  left: 267px;
+  width: 98%;
+  height: 716.11px;
+  margin-left: 30px;
   top: 50rem;
 }
 
 .domain-text {
   position: absolute;
-  left: 15%;
-  right: 30%;
+  left: 30.39%;
+  right: 29.94%;
   top: 35.68%;
   bottom: 31.77%;
 
@@ -124,15 +124,18 @@ navbar img {
 }
 
 .domain_list {
-  /* display: grid;
-  grid-template-columns: auto auto auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1rem);
   justify-content: space-evenly;
-  margin-left: -10rem; */
+  justify-items: center;
+  align-content: space-between;
+  top: 28rem;
 
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
 
-  margin-top: 35rem;
+  margin-top: 35rem; */
 }
 
 .domain_item {
@@ -160,24 +163,25 @@ navbar img {
 }
 
 .domain_desc {
-  position: absolute;
-  width: 100%;
-  height: 80.79px;
-  left: 3rem;
-  top: 58rem;
-
+  position: relative;
+  top: 30rem;
   font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 78px;
   display: flex;
   align-items: center;
   text-align: center;
+  margin-left: 30%;
 
   color: #000000
 }
 
-.domain_desc span {
-  margin-left: 1rem;
+.domain_desc img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  margin: auto;
 }
