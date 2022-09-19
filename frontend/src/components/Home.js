@@ -40,6 +40,13 @@ const Home = () => {
                 <div className='domain_desc'>
                     Creating cool stuffs, with amazing team <div><img src={process.env.PUBLIC_URL + '/images/idea.png'} /></div>
                 </div>
+                <div className='carousel'>
+                    <h1>Carousel</h1>
+                </div>
+                <div className='community'>
+                    Become a part of an exclusive <span className='grad3'>Community</span>
+                </div>
+                <div className='join-community'>Join Now</div>
             </div>
         </>
     );
