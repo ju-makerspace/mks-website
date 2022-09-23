@@ -259,9 +259,75 @@ navbar img {
 /* Footer CSS */
 .footer {
   top: 150rem;
+  bottom: 0;
   position: absolute;
   width: 100vw;
-  height: 50vh;
+  height: 80vh;
   background-color: black;
   color: white;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer section {
+  margin-top: 5rem;
+  width: 20vw;
+}
+
+.sec-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .sec1 {
+  margin-left: 2rem;
+}
+
+.sec1 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.sec1 ul li img {
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.sec2 ul {
+  list-style: none;
+  margin-left: -1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sec2 ul li {
+  margin-top: 1.5rem;
+}
+
+.footer hr {
+  width: 97vw;
+  margin-top: 20vh;
+}
+
+.footer .copy-rights {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  margin: auto;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+
+  color: #CFCFCF;
 }
