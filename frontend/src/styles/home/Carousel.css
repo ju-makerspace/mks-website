@@ -1,0 +1,14 @@
+/* TODO: Create a responsive Carousel */
+/* Carousel CSS */
+.carousel {
+  position: absolute;
+  width: 98vw;
+  height: 10rem;
+  top: 120rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* TODO: remove border later on */
+  border: 2px solid black;
+}
