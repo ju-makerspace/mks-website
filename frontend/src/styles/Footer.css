@@ -1,0 +1,75 @@
+/* Footer CSS */
+.footer {
+  position: absolute;
+  top: 200rem;
+  bottom: 0;
+  width: 100vw;
+  height: 80vh;
+  background-color: black;
+  color: white;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer section {
+  margin-top: 5rem;
+  width: 20vw;
+}
+
+.sec-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .Hero {
+  margin-left: 2rem;
+}
+
+.Hero ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.Hero ul li img {
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.Domain ul {
+  list-style: none;
+  margin-left: -1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Domain ul li {
+  margin-top: 1.5rem;
+}
+
+.footer hr {
+  width: 97vw;
+  margin-top: 20vh;
+}
+
+.footer .copy-rights {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  margin: auto;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+
+  color: #CFCFCF;
+}

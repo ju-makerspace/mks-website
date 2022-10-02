@@ -1,0 +1,94 @@
+/* Domain CSS */
+.domain {
+    width: 98%;
+    margin-left: 30px;
+}
+
+.domain-text {
+    position: absolute;
+    left: 30.39%;
+    right: 29.94%;
+    top: 55rem;
+    bottom: 31.77%;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 85%;
+    /* or 68px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.domain-text .grad2 {
+    background: linear-gradient(270deg, #5900B1 0%, #C00057 57.6%, #FF0000 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.domain_list {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1rem);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-between;
+    top: 28rem;
+
+    /* display: flex;
+    flex-wrap: wrap;
+  
+    margin-top: 35rem; */
+}
+
+.domain_item {
+    /* border: 2px solid black; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 295.39px;
+    height: 120.77px;
+    left: 267px;
+    top: 1594.2px;
+
+    background: #000000;
+    border-radius: 40.8003px;
+    color: white;
+
+    margin: 1.5rem;
+
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48.8019px;
+    line-height: 65px;
+}
+
+.domain_desc {
+    position: relative;
+    top: 30rem;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+
+    color: #000000
+}
+
+.domain_desc img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    margin: auto;
+}

@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -13,7 +13,7 @@ const App = () => {
         <BrowserRouter>
             <div className='App'>
                 <Navbar />
-                
+
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />
@@ -21,8 +21,8 @@ const App = () => {
                     <Route path='/featured' element={<Featured />} />
                     <Route path='/join-now' element={<TypeForm />} />
                 </Routes>
-                <Footer />
             </div>
+            <Footer />
         </BrowserRouter>
     );
 };

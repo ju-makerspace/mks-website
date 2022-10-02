@@ -1,0 +1,53 @@
+/* hero CSS */
+.hero {
+  width: 98%;
+  height: 716.11px;
+  margin-left: 30px;
+}
+
+.hero-text {
+  position: absolute;
+  left: 30.39%;
+  right: 29.94%;
+  top: 40%;
+  bottom: 31.77%;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 85%;
+  /* or 68px */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.hero-text .grad1 {
+  background: linear-gradient(270deg, #CC00FF 0%, #1400FF 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gear {
+  position: absolute;
+  left: 5%;
+  right: 91.39%;
+  top: 30%;
+  bottom: 64.05%;
+}
+
+.chip {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  bottom: 81.8%;
+}
+
+.laptop {
+  position: absolute;
+  right: 20%;
+  top: 83.61%;
+  bottom: 0%;
+}

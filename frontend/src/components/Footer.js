@@ -1,11 +1,11 @@
-import React from 'react';
+import '../styles/Footer.css';
 
 const Footer = () => {
     return (
         <>
             <div className='footer'>
                 <div className='footer-logo'>
-                    <section className='sec1'>
+                    <section className='Hero'>
                         <img
                             className='footer-logo-img'
                             src={process.env.PUBLIC_URL + '/images/mks.png'}
@@ -47,7 +47,7 @@ const Footer = () => {
                     </section>
 
                     <div className='sec-container'>
-                        <section className='sec2'>
+                        <section className='Domain'>
                             <h1>Explore</h1>
                             <ul>
                                 <li>Home</li>
@@ -57,7 +57,7 @@ const Footer = () => {
                             </ul>
                         </section>
 
-                        <section className='sec2'>
+                        <section className='Domain'>
                             <h1>Visit</h1>
                             <ul>
                                 <li>JECRC University</li>

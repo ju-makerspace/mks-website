@@ -1,0 +1,54 @@
+/* Community CSS */
+.community {
+    position: absolute;
+    left: 30.39%;
+    right: 29.94%;
+    top: 140rem;
+    bottom: 31.77%;
+  
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 85%;
+    /* or 68px */
+  
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .community .grad3 {
+    background: linear-gradient(270deg, #FF0000 0%, #FF7A00 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .join-community {
+    position: absolute;
+    top: 160rem;
+    left: 35%;
+  
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 60.2026px;
+    line-height: 80px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+  
+    position: absolute;
+    width: 30%;
+    height: 136.46px;
+  
+    border: 6px solid #000000;
+    border-radius: 45px;
+  
+    cursor: pointer;
+  }
