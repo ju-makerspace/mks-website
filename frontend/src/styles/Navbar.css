@@ -27,3 +27,15 @@ navbar img {
     margin-left: 30px;
     height: 3rem;
 }
+
+@media screen and (max-width: 500px) {
+    navbar ul li {
+        padding: 0 30px;
+        font-size: 1.2rem;
+    }
+
+    navbar img {
+        margin-left: 10px;
+        height: 2.5rem;
+    }
+}
