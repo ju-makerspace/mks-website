@@ -4,7 +4,7 @@
   top: 200rem;
   bottom: 0;
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
   background-color: black;
   color: white;
 }
@@ -45,8 +45,10 @@
 
 .Domain ul {
   list-style: none;
-  margin-left: -1rem;
+  margin-left: -14rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -56,6 +58,9 @@
 
 .footer hr {
   width: 97vw;
+  border-radius: 20rem;
+  border: 1px solid rgb(200, 200, 200);
+  background-color: rgb(200, 200, 200);
   margin-top: 20vh;
 }
 

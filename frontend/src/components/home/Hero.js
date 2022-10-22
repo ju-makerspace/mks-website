@@ -1,4 +1,4 @@
-import '../../styles/home/Hero.css'
+import '../../styles/desktop/home/Hero.css'
 
 const Hero = () => {
     return (

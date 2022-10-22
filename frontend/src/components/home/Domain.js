@@ -1,4 +1,4 @@
-import '../../styles/home/Domain.css';
+import '../../styles/desktop/home/Domain.css';
 
 const Domain = () => {
     return (
