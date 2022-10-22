@@ -1,4 +1,4 @@
-import '../../styles/home/Community.css';
+import '../../styles/desktop/home/Community.css';
 import { Link } from 'react-router-dom';
 
 const Community = () => {

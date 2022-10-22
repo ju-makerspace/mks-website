@@ -1,4 +1,4 @@
-import '../../styles/home/Carousel.css';
+import '../../styles/desktop/home/Carousel.css';
 
 const Carousel = () => {
     return (
