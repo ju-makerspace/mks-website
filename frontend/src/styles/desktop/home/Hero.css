@@ -36,6 +36,12 @@
   right: 91.39%;
   top: 30%;
   bottom: 64.05%;
+
+  transition: all 1s 0s ease-in-out;
+}
+
+.gear:hover {
+  transform: rotate(180deg);
 }
 
 .chip {
