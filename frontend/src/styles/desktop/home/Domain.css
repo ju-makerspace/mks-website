@@ -1,3 +1,7 @@
+:root{
+    --grad2: linear-gradient(270deg, #5900B1 0%, #C00057 57.6%, #FF0000 100%);
+}
+
 /* Domain CSS */
 .domain {
     width: 98%;
