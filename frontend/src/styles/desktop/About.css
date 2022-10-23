@@ -1,0 +1,66 @@
+.about-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.about-sec>.about-heading {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 85%;
+
+    margin-top: 5rem;
+}
+
+.about-heading>span {
+    background: var(--grad2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-sec>.about-content {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 119%;
+}
+
+.about-content>ul>li {
+    list-style: none;
+    margin: 2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 15rem;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.gallery>.item {
+    background-image: url("https://lh3.googleusercontent.com/pw/AL9nZEVmsuxMn7QUrKwm7-YfmygKLcPCivWKmS9Lln6-suFpZrLPmtIG8_pvTEdgdMyxKkfIePDc8LB5R4TJ2ke3uq_GgxDfPQY_kDTD_8YQlqiegqWF3wJHSnKtdAkQkjb-cJFDkcMQii0oyU7Mh_Qil47iCg=w1920-h764-no?authuser=0");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0.8px solid black;
+
+    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    transition: all 0.5s 0s ease;
+}
+
+.item:hover {
+    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}

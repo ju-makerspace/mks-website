@@ -1,3 +1,7 @@
+:root{
+  --grad1: linear-gradient(270deg, #CC00FF 0%, #1400FF 100%);
+}
+
 /* hero CSS */
 .hero {
   width: 98%;
