@@ -1,7 +1,3 @@
-:root{
-  --grad1: linear-gradient(270deg, #CC00FF 0%, #1400FF 100%);
-}
-
 /* hero CSS */
 .hero {
   width: 98%;
@@ -29,7 +25,7 @@
 }
 
 .hero-text .grad1 {
-  background: linear-gradient(270deg, #CC00FF 0%, #1400FF 100%);
+  background: var(--grad1);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
