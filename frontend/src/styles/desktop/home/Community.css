@@ -1,7 +1,3 @@
-:root {
-  --grad3: linear-gradient(270deg, #FF0000 0%, #FF7A00 100%);
-}
-
 /* Community CSS */
 .community {
   position: absolute;

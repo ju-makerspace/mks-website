@@ -37,10 +37,11 @@
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 3fr 2fr; */
     grid-auto-rows: 15rem;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .gallery>.item {
@@ -63,4 +64,27 @@
     /* Safari 6.0 - 9.0 */
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+}
+
+.event-title {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 85%;
+
+    margin-top: 5rem;
+    margin-left: 0.5rem;
+}
+
+.event-desc {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 119%;
+
+
+    margin-top: 1rem;
+    margin-left: .5rem;
 }
