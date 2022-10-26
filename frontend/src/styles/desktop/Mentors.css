@@ -1,0 +1,74 @@
+.mentor-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.mentor-sec>.mentor-heading {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 85%;
+
+    margin-top: 3rem;
+}
+
+.mentor-card {
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: fit-content;
+
+    margin: 1rem;
+    padding: 1rem;
+
+    transition: all 0.3s 0s ease;
+}
+
+.mentor-card:hover {
+    box-shadow: 0px 0px 40px 8px rgba(171, 171, 171, 0.75);
+    -webkit-box-shadow: 0px 0px 40px 8px rgba(171, 171, 171, 0.75);
+    -moz-box-shadow: 0px 0px 40px 8px rgba(171, 171, 171, 0.75);
+}
+
+.mentor-matrix {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    margin: 0 1rem;
+    padding: 0 1rem;
+}
+
+.mentor-name {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 85%;
+    margin: 0.5rem auto;
+    padding: 1rem;
+
+    transition: all 0.2s 0s ease-in;
+}
+
+.mentor-card:hover .mentor-name {
+    background-color: var(--selection-bg);
+    color: var(--selection-color);
+    transform: translate(1rem);
+}
+
+.mentor-designation {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 85%;
+    margin: 0.2rem auto;
+}
