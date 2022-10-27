@@ -9,12 +9,14 @@ const MentorCard = (props) => {
             <div
                 style={{
                     border: '2px solid black',
-                    borderRadius: "10rem",
-                    height: '15rem',
-                    width: '15rem',
+                    borderRadius: "50rem",
+                    height: '4rem',
+                    width: '4rem',
                     background: `url(${pfp})`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
+                    padding: '8rem',
+                    margin: 'auto'
                 }}
             ></div>
 
