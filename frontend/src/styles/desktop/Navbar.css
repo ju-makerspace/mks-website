@@ -21,11 +21,21 @@ navbar ul li {
 navbar ul li a {
     text-decoration: none;
     color: black;
+
+    transition: all 0.2s 0s ease;
 }
 
 navbar img {
     margin-left: 30px;
     height: 3rem;
+}
+
+navbar .active {
+    background: var(--grad3);
+    /* background-clip: text; */
+    -webkit-text-fill-color: white;
+    padding: 0.2rem 1rem;
+    border-radius: 30rem;
 }
 
 @media screen and (max-width: 500px) {

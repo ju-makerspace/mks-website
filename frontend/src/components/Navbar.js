@@ -1,5 +1,5 @@
 import '../styles/desktop/Navbar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -7,16 +7,16 @@ const Navbar = () => {
             <img src={process.env.PUBLIC_URL + '/images/mks.png'} />
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <NavLink to='/'>Home</NavLink>
                 </li>
                 <li>
-                    <Link to='/about'>About</Link>
+                    <NavLink to='/about'>About</NavLink>
                 </li>
                 <li>
-                    <Link to='/mentors'>Mentors</Link>
+                    <NavLink to='/mentors'>Mentors</NavLink>
                 </li>
                 <li>
-                    <Link to='/featured'>Featured</Link>
+                    <NavLink to='/featured'>Featured</NavLink>
                 </li>
             </ul>
         </navbar>
