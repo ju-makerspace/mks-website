@@ -31,10 +31,10 @@ navbar img {
 }
 
 navbar .active {
-    background: var(--grad3);
+    background: var(--grad4);
     /* background-clip: text; */
     -webkit-text-fill-color: white;
-    padding: 0.2rem 1rem;
+    padding: 0.55rem 1rem;
     border-radius: 30rem;
 }
 
