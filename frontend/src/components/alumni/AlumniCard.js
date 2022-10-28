@@ -1,8 +1,5 @@
 const AlumniCard = (props) => {
-    const pfp = props.pfp;
-    const name = props.name;
-    const designation = props.designation;
-    const desc = props.desc;
+    const { pfp, name, designation, desc } = props;
     return (
         <div className='alumni-card'>
             {/* pfp of alumni */}
