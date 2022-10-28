@@ -1,8 +1,5 @@
 const MentorCard = (props) => {
-    const pfp = props.pfp;
-    const name = props.name;
-    const designation = props.designation;
-    const desc = props.desc;
+    const { pfp, name, designation, desc } = props;
     return (
         <div className='mentor-card'>
             {/* pfp of mentor */}

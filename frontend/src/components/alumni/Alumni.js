@@ -3,9 +3,9 @@ import '../../styles/desktop/Alumni.css';
 
 const Alumni = () => {
     return (
-        <div className='mentor-sec'>
-            <h1 className='mentor-heading'>Have a look at our Alumni</h1>
-            <section className='mentor-matrix'>
+        <div className='alumni-sec'>
+            <h1 className='alumni-heading'>Have a look at our Alumni</h1>
+            <section className='alumni-matrix'>
                 <AlumniCard
                     pfp='https://media-exp1.licdn.com/dms/image/C4D03AQHzv9XDyFuBKw/profile-displayphoto-shrink_800_800/0/1662620499006?e=1672272000&v=beta&t=AFjt4poc8W_wJv0z9LHUO1kUOe1sTcbhQej03oseZMg'
                     name='Naveen Kumar'
@@ -16,6 +16,18 @@ const Alumni = () => {
                     pfp='https://media-exp1.licdn.com/dms/image/D5603AQG38SPXhYr3Pg/profile-displayphoto-shrink_800_800/0/1639333076231?e=1672272000&v=beta&t=DlYdIpZ9dtf9WdbVaUveXcLEbpv8xcQOT5zbEREz2E8'
                     name='Detroja Pradeep Kumar'
                     designation='Intern @SAC (ISRO)'
+                    desc='Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.'
+                />
+                <AlumniCard
+                    pfp='https://media-exp1.licdn.com/dms/image/C4D03AQHFNQn38LwL_Q/profile-displayphoto-shrink_800_800/0/1630431664858?e=1672272000&v=beta&t=JcEIhvFEz51QB_mAdvwT70ZZg0VtW-8netkER1Znq0k'
+                    name='Devendra Suthar'
+                    designation='Assistant System Engineer @ TCS'
+                    desc='Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.'
+                />
+                <AlumniCard
+                    pfp='https://media-exp1.licdn.com/dms/image/C4D03AQF-h8ynuKph5Q/profile-displayphoto-shrink_800_800/0/1662921483258?e=1672272000&v=beta&t=EpSDR8v5FmLsBOZWnMq0JckDjN7vv8P0FZCosdzWQxA'
+                    name='Shubham Singh'
+                    designation='SDE @ HPE'
                     desc='Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.'
                 />
                 <AlumniCard
