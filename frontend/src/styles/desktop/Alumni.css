@@ -1,0 +1,78 @@
+.alumni-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.alumni-sec>.alumni-heading {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 85%;
+
+    margin-top: 3rem;
+}
+
+.alumni-card {
+    border: 2px solid black;
+    border-radius: 1.5rem;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    width: fit-content;
+
+    margin: 1rem;
+    padding: 2rem;
+
+    transition: all 0.3s 0s ease;
+}
+
+.alumni-card:hover {
+    box-shadow: 0px 0px 40px 8px rgba(171, 171, 171, 0.75);
+    -webkit-box-shadow: 0px 0px 40px 8px rgba(171, 171, 171, 0.75);
+    -moz-box-shadow: 0px 0px 40px 8px rgba(171, 171, 171, 0.75);
+}
+
+.alumni-matrix {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 1rem;
+    padding: 0 1rem;
+}
+
+.alumni-name {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    
+    margin: auto;
+    padding: 1rem;
+
+    transition: all 0.2s 0s ease-in;
+}
+
+.alumni-card:hover .alumni-name {
+    background-color: var(--selection-bg);
+    color: var(--selection-color);
+    transform: translate(1rem);
+}
+
+.alumni-designation {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: auto;
+    padding: 1rem;
+}
