@@ -7,6 +7,7 @@ import Mentors from './components/mentors/Mentors';
 import Featured from './components/Featured';
 import TypeForm from './components/TypeForm';
 import Footer from './components/Footer';
+import Alumni from './components/alumni/Alumni';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                     <Route path='/about' element={<About />} />
                     <Route path='/mentors' element={<Mentors />} />
                     <Route path='/featured' element={<Featured />} />
+                    <Route path='/alumni' element={<Alumni />} />
                     <Route path='/join-now' element={<TypeForm />} />
                 </Routes>
             </div>
