@@ -1,7 +1,7 @@
 const AlumniCard = (props) => {
-    const { pfp, name, designation, desc } = props;
+    const { pfp, name, designation, desc, link } = props.data;
     return (
-        <div className='alumni-card'>
+        <a href={link} target='_blank' className='alumni-card'>
             {/* pfp of alumni */}
             <div
                 className='alumni-pfp'
@@ -25,7 +25,7 @@ const AlumniCard = (props) => {
 
             {/* one short description */}
             <p className='alumni-desc'>{desc}</p>
-        </div>
+        </a>
     );
 };
 
