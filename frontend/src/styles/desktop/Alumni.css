@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .alumni-sec {
     display: flex;
     justify-content: center;
