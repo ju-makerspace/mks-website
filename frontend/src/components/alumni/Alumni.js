@@ -13,7 +13,7 @@ const Alumni = () => {
         {
             pfp: 'https://media-exp1.licdn.com/dms/image/D5603AQG38SPXhYr3Pg/profile-displayphoto-shrink_800_800/0/1639333076231?e=1672272000&v=beta&t=DlYdIpZ9dtf9WdbVaUveXcLEbpv8xcQOT5zbEREz2E8',
             name: 'Detroja Pradeep Kumar',
-            designation: 'Intern @SAC (ISRO)',
+            designation: 'Masters @ The University of Sheffield, UK',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/detroja-pradeep-kumar/',
         },
@@ -55,7 +55,7 @@ const Alumni = () => {
         {
             pfp: 'https://media-exp1.licdn.com/dms/image/C4E03AQFePPekkFqXyw/profile-displayphoto-shrink_800_800/0/1633499585281?e=1672272000&v=beta&t=M6Nu74w6hYqtgxTK902kcijoHWtC1udV5emG0fCRGqw',
             name: 'Kavisha Manchanda',
-            designation: 'Front-End Developer',
+            designation: 'Senior Analyst @ Capgemini',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/kavisha-manchanda-75b7711b1/',
         },
