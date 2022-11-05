@@ -76,7 +76,7 @@ a {
 }
 
 .alumni-card:hover .alumni-name {
-    background-color: var(--selection-bg);
+    /* background-color: var(--selection-bg); */
     color: var(--selection-color);
     transform: translate(1rem);
 }
