@@ -26,7 +26,7 @@ const Mentors = () => {
             link: 'https://www.linkedin.com/in/shekhar-chander-263aa86/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQFIhHszXY1z0Q/profile-displayphoto-shrink_800_800/0/1661217703187?e=1672272000&v=beta&t=hj_cNMFYkCtdRCGMC73k0UxC6i-WB6K_C6x2wTA8DBs',
+            pfp: 'https://media-exp1.licdn.com/dms/image/C5603AQF80tIgpb0i0A/profile-displayphoto-shrink_800_800/0/1647882585384?e=1673481600&v=beta&t=uKHapLjQMhoiD8_Hh2JtvHRNsDOcJZULzf4oQB_7uTA',
             name: 'Anil Kumar',
             designation: 'Mentor @ JU Makerspace',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',

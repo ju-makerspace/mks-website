@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './components/about/About';
 import Mentors from './components/mentors/Mentors';
-import Featured from './components/Featured';
+import Featured from './components/featured/Featured';
 import TypeForm from './components/TypeForm';
 import Footer from './components/Footer';
 import Alumni from './components/alumni/Alumni';
