@@ -39,6 +39,13 @@ const Alumni = () => {
             link: 'https://www.linkedin.com/in/tiwari-aditya/',
         },
         {
+            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQGpguL92sF5PA/profile-displayphoto-shrink_800_800/0/1611054945258?e=1673481600&v=beta&t=oGq1A0Xgap5vQej5gjIJFXWBamxoIC6wkP9AReWgrEs',
+            name: 'Akshat Jain',
+            designation: 'Masters @ The University of Sheffield, UK',
+            desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
+            link: 'https://www.linkedin.com/in/i-akshat-jain/',
+        },
+        {
             pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQERVsS18eUpUQ/profile-displayphoto-shrink_800_800/0/1643043410579?e=1672272000&v=beta&t=03iTJaTsE8BehSj5PH-XZ9-0o84jcS_pE8Q-kxN5eLI',
             name: 'Wasim Parsani',
             designation: 'SDE @ Amazon',
