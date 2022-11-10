@@ -5,7 +5,8 @@
   --grad2: linear-gradient(270deg, #5900B1 0%, #C00057 57.6%, #FF0000 100%);
   --grad3: linear-gradient(270deg, #FF0000 0%, #FF7A00 100%);
   --grad4: linear-gradient(270deg, #0f33ff9d 0%, #5000e4 100%);
-  /* --grad4: linear-gradient(270deg, #1a7dff 0%, #0035ff 100%); */
+  --grad5: linear-gradient(270deg, #1a7dff 0%, #0035ff 100%);
+  --grad6: linear-gradient(90deg,  rgb(98, 0, 255) 60%, rgb(57, 60, 208) 100%);
   
 
   --selection-color: rgb(246, 253, 148);

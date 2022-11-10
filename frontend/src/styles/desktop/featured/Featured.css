@@ -1,3 +1,27 @@
+.featured-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.featured-sec>.featured-heading {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 85%;
+
+    margin-top: 5rem;
+}
+
+.featured-heading>span {
+    background: var(--grad6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .featured {
     display: grid;
     grid-template-rows: max-content max-content max-content;
@@ -6,7 +30,31 @@
     margin: 1rem;
 }
 
+.featured_title {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 85%;
+
+    margin: 0.2rem 1rem;
+}
+
 .featured-item {
     /* border: 2px solid black; */
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 119%;
     margin: 0 1rem;
+}
+
+.featured-proof {
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.2rem;
+    /* border: 3px solid black; */
 }
