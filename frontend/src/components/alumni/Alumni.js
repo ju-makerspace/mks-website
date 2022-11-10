@@ -7,7 +7,7 @@ const Alumni = () => {
             pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQHzv9XDyFuBKw/profile-displayphoto-shrink_800_800/0/1662620499006?e=1672272000&v=beta&t=AFjt4poc8W_wJv0z9LHUO1kUOe1sTcbhQej03oseZMg',
             name: 'Naveen Kumar',
             designation: 'SDE1 @ HPE',
-            desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
+            desc: 'JU Makerspace is a space with no restrictions and limitations',
             link: 'https://www.linkedin.com/in/1501naveenkumar/',
         },
         {
@@ -27,7 +27,7 @@ const Alumni = () => {
         {
             pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQF-h8ynuKph5Q/profile-displayphoto-shrink_800_800/0/1662921483258?e=1672272000&v=beta&t=EpSDR8v5FmLsBOZWnMq0JckDjN7vv8P0FZCosdzWQxA',
             name: 'Shubham Singh',
-            designation: 'SDE @ HPE',
+            designation: 'Systems Software Engineer 1 @ HPE',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/shubham-singh-974d/',
         },

@@ -24,7 +24,7 @@ const AlumniCard = (props) => {
             <h3 className='alumni-designation'>{designation}</h3>
 
             {/* one short description */}
-            <p className='alumni-desc'>{desc}</p>
+            <q className='alumni-desc'>{desc}</q>
         </a>
     );
 };

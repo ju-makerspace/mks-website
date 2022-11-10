@@ -27,6 +27,8 @@ a {
 
     display: grid;
 
+    height: 42vh;
+
     grid-template-columns: repeat(2, 1fr);
 
     width: fit-content;
@@ -41,6 +43,8 @@ a {
 
     background-color: rgb(18, 23, 30);
     color: var(--selection-color);
+
+    /* height: 43vh; */
 
     cursor: pointer;
 
@@ -91,4 +95,15 @@ a {
 
     margin: auto;
     padding: 1rem;
+}
+
+.alumni-desc {
+    /* width: 80%; */
+
+    font-style: italic;
+    font-size: 1.1rem;
+
+    margin: 0 auto;
+
+    /* border: 2px solid red; */
 }
