@@ -16,9 +16,19 @@ const Covid = () => {
             </p>
             <div className='featured-item'>
                 <div className='featured-proof'>
-                    <TwitterTweetEmbed tweetId='1248130891118825472' />
-                    <img src='https://jecrcuniversity.edu.in/umakerspace12345/Page-8-Image-12.jpg?width=400' />
-                    <img src='https://jecrcuniversity.edu.in/umakerspace12345/Page-5-Image-5.jpg' />
+                    <TwitterTweetEmbed
+                        className='f-box'
+                        options={{ theme: 'light' }}
+                        tweetId='1248130891118825472'
+                    />
+                    <img
+                        className='f-box'
+                        src='https://jecrcuniversity.edu.in/umakerspace12345/Page-8-Image-12.jpg?width=400'
+                    />
+                    <img
+                        className='f-box'
+                        src='https://jecrcuniversity.edu.in/umakerspace12345/Page-5-Image-5.jpg'
+                    />
                 </div>
             </div>
         </div>

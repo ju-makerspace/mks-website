@@ -15,9 +15,13 @@ const SocialDistance = () => {
             </p>
             <div className='featured-item'>
                 <div className='featured-covid-badge'>
-                    <img src='https://jecrcuniversity.edu.in/umakerspace12345/Page-13-Image-17.jpg?widht=400' />
+                    <img
+                        className='f-box'
+                        src='https://jecrcuniversity.edu.in/umakerspace12345/Page-13-Image-17.jpg?widht=400'
+                    />
                     <div className='youtube-embed'>
                         <iframe
+                            className='f-box'
                             width='100%'
                             height='100%'
                             src='https://www.youtube.com/embed/FxBzNgSiT64'
@@ -27,6 +31,7 @@ const SocialDistance = () => {
                             allowfullscreen
                         ></iframe>
                         <iframe
+                            className='f-box'
                             width='100%'
                             height='100%'
                             src='https://www.youtube.com/embed/dpZNg-8CeA4'

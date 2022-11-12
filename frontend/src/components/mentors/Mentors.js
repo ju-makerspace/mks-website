@@ -5,7 +5,7 @@ const Mentors = () => {
     const mentor = [
         {
             pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQFIhHszXY1z0Q/profile-displayphoto-shrink_800_800/0/1661217703187?e=1672272000&v=beta&t=hj_cNMFYkCtdRCGMC73k0UxC6i-WB6K_C6x2wTA8DBs',
-            name: 'Arpit Agrawal',
+            name: 'Sh. Arpit Agrawal',
             designation:
                 'Director and Vice President Human Resources @ JECRC University',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
@@ -13,21 +13,21 @@ const Mentors = () => {
         },
         {
             pfp: 'https://media-exp1.licdn.com/dms/image/C5603AQGVwEOpRkHVhg/profile-displayphoto-shrink_800_800/0/1573826801260?e=1672272000&v=beta&t=nq24O8-Tw4pmIBlWOY9ZEsmS_K1tY4gOUt_qV_M-Yu0',
-            name: 'Dheemant Agrawal',
+            name: 'Sh. Dheemant Agrawal',
             designation: 'Head, Digital strategies @ JECRC University',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/dheemantagrawal/',
         },
         {
             pfp: 'https://media-exp1.licdn.com/dms/image/C4E03AQGm3_1t34UH9Q/profile-displayphoto-shrink_800_800/0/1530508418899?e=1672272000&v=beta&t=xW53q6p5EoO4jEQT4NUfl3wwV-Wi4jfOb24zqba6VXw',
-            name: 'Shekhar Chander',
+            name: 'Shekhar Chander Sir',
             designation: 'Mentor @ JU Makerspace',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/shekhar-chander-263aa86/',
         },
         {
             pfp: 'https://media-exp1.licdn.com/dms/image/C5603AQF80tIgpb0i0A/profile-displayphoto-shrink_800_800/0/1647882585384?e=1673481600&v=beta&t=uKHapLjQMhoiD8_Hh2JtvHRNsDOcJZULzf4oQB_7uTA',
-            name: 'Anil Kumar',
+            name: 'Anil Kumar Sir',
             designation: 'Mentor @ JU Makerspace',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/anil-kumar-41084760/',

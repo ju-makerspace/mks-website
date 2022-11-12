@@ -40,6 +40,11 @@
     margin: 0.2rem 1rem;
 }
 
+.f-box {
+    border: 2px solid black;
+    padding: 0.2rem;
+}
+
 .featured-item {
     /* border: 2px solid black; */
     font-family: 'Segoe UI';

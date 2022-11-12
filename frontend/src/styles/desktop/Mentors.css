@@ -60,8 +60,9 @@
 }
 
 .mentor-card:hover .mentor-name {
-    background-color: var(--selection-bg);
-    color: var(--selection-color);
+    /* background-color: var(--selection-bg);
+    color: var(--selection-color); */
+    text-decoration: underline;
     transform: translate(1rem);
 }
 

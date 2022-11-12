@@ -17,7 +17,10 @@ const Collab = () => {
             </p>
             <div className='featured-item'>
                 <div className='featured-collab'>
-                    <img width={500} src='https://jecrcuniversity.edu.in/umakerspace12345/Page-12-Image-16.jpg' />
+                    <img
+                        width={500}
+                        src='https://jecrcuniversity.edu.in/umakerspace12345/Page-12-Image-16.jpg'
+                    />
                 </div>
             </div>
         </div>
