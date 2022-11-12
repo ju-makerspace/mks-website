@@ -38,17 +38,8 @@ const About = () => {
                     </ul>
                 </p>
             </section>
-            <section>
-                <h1
-                    style={{
-                        fontWeight: 800,
-                        fontSize: '1.8rem',
-                        marginTop: '3rem',
-                        marginLeft: '0.3rem',
-                    }}
-                >
-                    Past Events ✨
-                </h1>
+            <section className='past-events'>
+                <p className='past-events-heading'>Past Events ✨</p>
                 <Event title='Event-1' desc='This is Event 1' />
                 <Event title='Event-2' desc='This is Event 2' />
                 <Event title='Event-3' desc='This is Event 3' />

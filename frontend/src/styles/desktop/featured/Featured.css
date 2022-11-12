@@ -79,3 +79,11 @@
     /* border: 1px solid black; */
     /* height: 100%; */
 }
+
+.featured-collab {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
