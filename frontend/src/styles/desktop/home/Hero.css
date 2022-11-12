@@ -1,22 +1,31 @@
 /* hero CSS */
 .hero {
-  width: 98%;
-  height: 716.11px;
-  margin-left: 30px;
+  /* width: 98%; */
+  /* height: 716.11px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .hero-text {
-  position: absolute;
-  left: 30.39%;
-  right: 29.94%;
+  /* position: absolute; */
+  /* left: 30.39%;
   top: 40%;
-  bottom: 31.77%;
+  right: 29.94%;
+  bottom: 31.77%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 18% 30%;
+
 
   font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
-  line-height: 85%;
+  line-height: 80%;
   /* or 68px */
 
   text-align: center;
@@ -24,6 +33,10 @@
   color: #000000;
 }
 
+.hero-text > span {
+  line-height: normal;
+  margin-top: -1rem;
+}
 .hero-text .grad1 {
   background: var(--grad1);
   background-clip: text;
