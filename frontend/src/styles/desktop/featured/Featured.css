@@ -53,8 +53,29 @@
 .featured-proof {
     display: grid;
     grid-template-columns: repeat(3, 25vw);
+    /* grid-auto-columns: 25vw; */
     justify-content: space-between;
     align-items: flex-start;
+    gap: 1rem;
     padding: 1.2rem;
     /* border: 3px solid black; */
+}
+
+.featured-covid-badge {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+}
+
+.youtube-embed {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* border: 1px solid black; */
+    /* height: 100%; */
 }
