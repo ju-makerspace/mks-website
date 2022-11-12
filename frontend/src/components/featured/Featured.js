@@ -1,5 +1,6 @@
 import '../../styles/desktop/featured/Featured.css';
 import Covid from './Covid';
+import SocialDistance from './SocialDistance';
 
 const Featured = () => {
     return (
@@ -9,7 +10,7 @@ const Featured = () => {
                     Let's talk about places we got <span>Featured</span> ✨
                 </p>
                 <Covid />
-                <Covid />
+                <SocialDistance />
             </section>
         </div>
     );
