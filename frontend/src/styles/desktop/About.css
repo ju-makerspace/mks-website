@@ -13,7 +13,7 @@
     font-size: 50px;
     line-height: 85%;
 
-    margin-top: 5rem;
+    margin-top: 25vh;
 }
 
 .about-heading>span {
@@ -48,7 +48,6 @@
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: 1fr 3fr 2fr; */
     grid-auto-rows: 15rem;
     justify-content: center;
     align-items: center;

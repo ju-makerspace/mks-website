@@ -1,6 +1,7 @@
 import '../../styles/desktop/featured/Featured.css';
 import Collab from './Collab';
 import Covid from './Covid';
+import Inologue from './Inologue';
 import SocialDistance from './SocialDistance';
 
 const Featured = () => {
@@ -13,6 +14,7 @@ const Featured = () => {
                 <Covid />
                 <SocialDistance />
                 <Collab />
+                <Inologue />
             </section>
         </div>
     );

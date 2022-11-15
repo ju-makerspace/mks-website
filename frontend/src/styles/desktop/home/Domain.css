@@ -5,22 +5,27 @@
 }
 
 .domain-text {
-    position: absolute;
-    left: 30.39%;
-    right: 29.94%;
-    top: 55rem;
-    bottom: 31.77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 5% auto;
 
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
     line-height: 85%;
-    /* or 68px */
 
     text-align: center;
 
     color: #000000;
+}
+
+.domain-text>span {
+    line-height: normal;
+    margin-top: -1rem;
 }
 
 .domain-text .grad2 {
@@ -31,18 +36,15 @@
 }
 
 .domain_list {
-    position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1rem);
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-between;
-    top: 28rem;
+    margin: 0.5rem auto;
+    padding: 0.5rem 1rem;
 
-    /* display: flex;
-    flex-wrap: wrap;
-  
-    margin-top: 35rem; */
+    row-gap: 5vh;
 }
 
 .domain_item {
@@ -52,16 +54,11 @@
     justify-content: center;
     align-items: center;
 
-    width: 295.39px;
-    height: 120.77px;
-    left: 267px;
-    top: 1594.2px;
+    padding: 1.5rem 2rem;
 
     background: #000000;
-    border-radius: 40.8003px;
+    border-radius: 2.3rem;
     color: white;
-
-    margin: 1.5rem;
 
     font-style: normal;
     font-weight: 200;
@@ -70,17 +67,17 @@
 }
 
 .domain_desc {
-    position: relative;
-    top: 30rem;
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
     line-height: 78px;
+
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 30%;
+    margin: 5% auto;
 
     color: #000000
 }
