@@ -1,7 +1,5 @@
 /* hero CSS */
 .hero {
-  /* width: 98%; */
-  /* height: 716.11px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,11 +7,6 @@
 }
 
 .hero-text {
-  /* position: absolute; */
-  /* left: 30.39%;
-  top: 40%;
-  right: 29.94%;
-  bottom: 31.77%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,10 +26,11 @@
   color: #000000;
 }
 
-.hero-text > span {
+.hero-text>span {
   line-height: normal;
   margin-top: -1rem;
 }
+
 .hero-text .grad1 {
   background: var(--grad1);
   background-clip: text;

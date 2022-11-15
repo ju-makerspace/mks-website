@@ -1,21 +1,27 @@
 /* Community CSS */
 .community {
-  position: absolute;
-  left: 30.39%;
-  right: 29.94%;
-  top: 140rem;
-  bottom: 31.77%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 40%;
+  margin: 5% auto;
 
   font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
   line-height: 85%;
-  /* or 68px */
 
   text-align: center;
 
   color: #000000;
+}
+
+.community>span {
+  line-height: normal;
+  margin-top: -1rem;
 }
 
 .community .grad3 {
@@ -25,10 +31,6 @@
 }
 
 .join-community {
-  position: absolute;
-  top: 160rem;
-  left: 35%;
-
   font-family: 'Segoe UI';
   font-style: italic;
   font-weight: 400;
@@ -36,18 +38,15 @@
   line-height: 80px;
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  justify-content: center;
+  margin: auto 38vw;
+  padding: 1rem 1.5rem;
 
   color: #000000;
   background-color: rgba(0, 0, 0, 0);
-
-  position: absolute;
-  width: 30%;
-  height: 136.46px;
-
-  border: 6px solid #000000;
+  border: 5px solid #000000;
   border-radius: 45px;
 
   cursor: pointer;
@@ -58,7 +57,6 @@
 .join-community:hover {
   border-width: 0;
   background: var(--grad3);
-  border-radius: 90px;
+  border-radius: 20rem;
   color: white;
 }
-

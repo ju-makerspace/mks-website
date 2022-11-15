@@ -48,7 +48,6 @@
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: 1fr 3fr 2fr; */
     grid-auto-rows: 15rem;
     justify-content: center;
     align-items: center;
