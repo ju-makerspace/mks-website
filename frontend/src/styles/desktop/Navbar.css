@@ -16,8 +16,10 @@ navbar {
     backdrop-filter: blur(10px);
     /* border-radius: 10px; */
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
-    
+
     z-index: 999;
+
+    transition: all 0.3s 0s ease;
 }
 
 navbar ul {
@@ -67,3 +69,30 @@ navbar .active {
 /* 481px — 768px: iPads, Tablets */
 /* 769px — 1024px: Small screens, laptops */
 /* 1025px — .... : Desktops, large screens */
+
+/* Desktop: 1024px - 1200px */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+    navbar ul {
+        /* margin: 3vh 5vw; */
+        margin-right: 10%;
+        /* justify-content: space-around; */
+    }
+
+    navbar ul li {
+        padding: 0 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    navbar img {
+        height: 2.5rem;
+    }
+
+
+
+}
+
+/* Tablet: 768px - 1023px */
+
+/* mobile: 481px - 767px */
+
+/* smaller phones: 480px */
