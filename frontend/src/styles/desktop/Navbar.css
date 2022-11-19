@@ -73,9 +73,7 @@ navbar .active {
 /* Desktop: 1024px - 1200px */
 @media all and (min-width: 1024px) and (max-width: 1200px) {
     navbar ul {
-        /* margin: 3vh 5vw; */
         margin-right: 10%;
-        /* justify-content: space-around; */
     }
 
     navbar ul li {
