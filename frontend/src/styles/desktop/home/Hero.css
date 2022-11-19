@@ -41,7 +41,7 @@
   position: absolute;
   left: 5%;
   right: 91.39%;
-  top: 30%;
+  top: 35%;
   bottom: 64.05%;
 
   transition: all 1s 0s ease-in-out;
@@ -61,6 +61,87 @@
 .laptop {
   position: absolute;
   right: 20%;
-  top: 83.61%;
+  top: 80%;
   bottom: 0%;
 }
+
+/* Desktop: 1024px - 1200px */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+  .hero-text {
+    margin: 20% auto;
+    padding: 0 25%;
+    font-size: 60px;
+  }
+
+  .gear {
+    height: 20vh;
+    top: 45%;
+  }
+
+  .chip {
+    height: 20vh;
+    top: 21%;
+    right: 4%;
+  }
+
+  .laptop {
+    height: 18vh;
+    right: 23%;
+  }
+}
+
+/* Tablet: 768px - 1023px */
+@media all and (min-width: 768px) and (max-width: 1000px) {
+  .hero-text {
+    margin: 22% auto;
+    padding: 0 25%;
+    font-size: 50px;
+    line-height: 82%;
+  }
+
+  .gear {
+    height: 20vh;
+    top: 40%;
+  }
+
+  .chip {
+    height: 20vh;
+    top: 21%;
+    right: 2%;
+  }
+
+  .laptop {
+    height: 18vh;
+    right: 23%;
+  }
+}
+
+
+@media all and (min-width: 1000px) and (max-width: 1024px) {
+  .hero-text {
+    margin: 22% auto;
+    padding: 0 30%;
+    font-size: 50px;
+    line-height: 85%;
+  }
+
+  .gear {
+    height: 20vh;
+    top: 40%;
+  }
+
+  .chip {
+    height: 20vh;
+    top: 21%;
+    right: 2%;
+  }
+
+  .laptop {
+    height: 18vh;
+    right: 23%;
+  }
+}
+
+/* mobile: 481px - 767px */
+
+/* smaller phones: 480px */

@@ -16,8 +16,10 @@ navbar {
     backdrop-filter: blur(10px);
     /* border-radius: 10px; */
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
-    
+
     z-index: 999;
+
+    transition: all 0.3s 0s ease;
 }
 
 navbar ul {
@@ -51,19 +53,54 @@ navbar .active {
     border-radius: 30rem;
 }
 
-@media screen and (max-width: 500px) {
+/* Desktop: 1024px - 1200px */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+    navbar ul {
+        margin-right: 10%;
+    }
+
     navbar ul li {
-        padding: 0 30px;
+        padding: 0 2.5rem;
         font-size: 1.2rem;
     }
 
     navbar img {
-        margin-left: 10px;
         height: 2.5rem;
     }
 }
 
-/* 320px — 480px: Mobile devices */
-/* 481px — 768px: iPads, Tablets */
-/* 769px — 1024px: Small screens, laptops */
-/* 1025px — .... : Desktops, large screens */
+/* Tablet: 768px - 1023px */
+@media all and (min-width: 768px) and (max-width: 900px) {
+    navbar ul {
+        margin-right: 5%
+    }
+
+    navbar ul li {
+        padding: 0 1.59rem;
+        font-size: 1rem;
+    }
+
+    navbar img {
+        margin-left: 8px;
+        height: 2rem;
+    }
+}
+
+@media all and (min-width: 900px) and (max-width: 1024px) {
+    navbar ul {
+        margin-right: 5%
+    }
+
+    navbar ul li {
+        padding: 0 2rem;
+        font-size: 1.1rem;
+    }
+
+    navbar img {
+        height: 2.1rem;
+    }
+}
+
+/* mobile: 481px - 767px */
+
+/* smaller phones: 480px */
