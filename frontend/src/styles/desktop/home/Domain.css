@@ -1,7 +1,11 @@
 /* Domain CSS */
 .domain {
-    width: 98%;
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    padding: auto;
+    flex-direction: column;
 }
 
 .domain-text {
@@ -9,8 +13,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    /* width: 30%; */
     margin: 5% auto;
+    padding: 0 30%;
 
     font-family: 'Segoe UI';
     font-style: normal;
@@ -37,13 +42,14 @@
 
 .domain_list {
     display: grid;
-    grid-template-columns: repeat(3, 1rem);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-between;
-    margin: 0.5rem auto;
+    margin: 0.1rem auto;
     padding: 0.5rem 1rem;
 
+    column-gap: 5vw;
     row-gap: 5vh;
 }
 
@@ -54,15 +60,15 @@
     justify-content: center;
     align-items: center;
 
-    padding: 1.5rem 2rem;
+    padding: 1.2rem 2rem;
 
     background: #000000;
-    border-radius: 2.3rem;
+    border-radius: 2rem;
     color: white;
 
     font-style: normal;
     font-weight: 200;
-    font-size: 48.8019px;
+    font-size: 45px;
     line-height: 65px;
 }
 
@@ -77,7 +83,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5% auto;
+    margin: 2% auto;
 
     color: #000000
 }
@@ -89,3 +95,68 @@
     height: 3rem;
     margin: auto;
 }
+
+/* Desktop: 1024px - 1200px */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+    .domain-text {
+        font-size: 60px;
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+
+    .domain_list {
+        margin: 3px auto;
+
+        column-gap: 3vw;
+        row-gap: 3vh;
+    }
+
+    .domain_item {
+        padding: 0.5rem 1.2rem;
+        font-size: 40px;
+    }
+
+    .domain_desc {
+        font-size: 1.5rem;
+        margin-top: 2px;
+    }
+
+    .domain_desc img {
+        height: 2.8rem;
+    }
+}
+
+/* Tablet: 768px - 1023px */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .domain-text {
+        font-size: 50px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    .domain_list {
+        margin: 2.5px auto;
+
+        column-gap: 3vw;
+        row-gap: 3vh;
+    }
+
+    .domain_item {
+        padding: 0.4rem 1rem;
+        border-radius: 30px;
+        font-size: 30px;
+    }
+
+    .domain_desc {
+        font-size: 1.2rem;
+        margin-top: 2px;
+    }
+
+    .domain_desc img {
+        height: 2.2rem;
+    }
+}
+
+/* mobile: 481px - 767px */
+
+/* smaller phones: 480px */
