@@ -53,23 +53,6 @@ navbar .active {
     border-radius: 30rem;
 }
 
-@media screen and (max-width: 500px) {
-    navbar ul li {
-        padding: 0 30px;
-        font-size: 1.2rem;
-    }
-
-    navbar img {
-        margin-left: 10px;
-        height: 2.5rem;
-    }
-}
-
-/* 320px — 480px: Mobile devices */
-/* 481px — 768px: iPads, Tablets */
-/* 769px — 1024px: Small screens, laptops */
-/* 1025px — .... : Desktops, large screens */
-
 /* Desktop: 1024px - 1200px */
 @media all and (min-width: 1024px) and (max-width: 1200px) {
     navbar ul {
