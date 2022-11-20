@@ -4,6 +4,7 @@ navbar {
     justify-content: space-between;
     align-items: center;
     font-size: large;
+    top: 0;
     margin: 0rem 0.5rem 1rem 0rem;
     padding: 0.5rem 1rem;
     position: fixed;
