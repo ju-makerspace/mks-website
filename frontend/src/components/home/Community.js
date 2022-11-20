@@ -5,8 +5,9 @@ const Community = () => {
     return (
         <>
             <div className='community'>
-                Become a part of an exclusive{' '}
-                <span className='grad3'>Community</span>
+                <div className='community-text'>
+                    Become a part of an exclusive <span className='grad3'>Community</span>
+                </div>
             </div>
             <Link to='/join-now'>
                 <div className='join-community'>Join Now</div>

@@ -3,10 +3,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2% auto;
+  padding: auto;
   flex-direction: column;
+}
 
-  width: 40%;
+.community-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 30%; */
   margin: 5% auto;
+  padding: 0 30%;
 
   font-family: 'Segoe UI';
   font-style: normal;
@@ -19,12 +28,12 @@
   color: #000000;
 }
 
-.community>span {
+.community-text>span {
   line-height: normal;
   margin-top: -1rem;
 }
 
-.community .grad3 {
+.community-text .grad3 {
   background: var(--grad3);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,7 +43,7 @@
   font-family: 'Segoe UI';
   font-style: italic;
   font-weight: 400;
-  font-size: 60.2026px;
+  font-size: 60px;
   line-height: 80px;
 
   display: flex;
@@ -60,3 +69,38 @@
   border-radius: 20rem;
   color: white;
 }
+
+/* Desktop: 1024px - 1200px */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+  .community-text {
+    font-size: 60px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding: 0 27%;
+  }
+
+  .join-community {
+    font-size: 40px;
+    padding: 0.5rem 2rem;
+  }
+}
+
+/* Tablet: 768px - 1023px */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .community-text {
+    font-size: 60px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding: 0 20%;
+  }
+
+  .join-community {
+    font-size: 25px;
+    padding: 0.2rem;
+    border: 3px solid #000000;
+  }
+}
+
+/* mobile: 481px - 767px */
+
+/* smaller phones: 480px */
