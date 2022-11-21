@@ -92,3 +92,64 @@
     align-items: center;
     margin: 1rem auto;
 }
+
+/* Desktop: 1024px - 1200px */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+    .featured-sec>.featured-heading {
+        font-size: 45px;
+        margin-top: 30vh;
+    }
+
+    .featured_title {
+        font-size: 30px;
+    }
+
+    .featured-item {
+        font-size: 22px;
+    }
+
+
+    .featured-proof>img {
+        width: 280px;
+    }
+}
+
+/* Tablet: 768px - 1023px */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .featured-sec>.featured-heading {
+        font-size: 42px;
+        margin-top: 30vh;
+    }
+
+    .featured_title {
+        font-size: 28px;
+    }
+
+    .featured_desc {
+        margin: auto 1.2rem;
+        padding: auto 1.2rem;
+    }
+
+    .featured-item {
+        font-size: 20px;
+    }
+
+    .featured-proof {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .featured-proof>img {
+        width: 180px;
+    }
+
+    .featured-covid-badge {
+        grid-template-columns: 1fr;
+    }
+    /* .featured-proof>TwitterTweetEmbed {
+        height: 100px;
+    } */
+}
+
+/* mobile: 481px - 767px */
+
+/* smaller phones: 480px */

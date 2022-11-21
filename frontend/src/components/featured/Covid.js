@@ -16,11 +16,13 @@ const Covid = () => {
             </p>
             <div className='featured-item'>
                 <div className='featured-proof'>
-                    <TwitterTweetEmbed
-                        className='f-box'
-                        options={{ theme: 'light' }}
-                        tweetId='1248130891118825472'
-                    />
+                    <div className='featured-tweet'>
+                        <TwitterTweetEmbed
+                            className='f-box'
+                            options={{ theme: 'light' }}
+                            tweetId='1248130891118825472'
+                        />
+                    </div>
                     <img
                         className='f-box'
                         src='https://jecrcuniversity.edu.in/umakerspace12345/Page-8-Image-12.jpg?width=400'
