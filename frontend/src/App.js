@@ -8,10 +8,12 @@ import Featured from './components/featured/Featured';
 import TypeForm from './components/TypeForm';
 import Footer from './components/Footer';
 import Alumni from './components/alumni/Alumni';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
     return (
         <BrowserRouter>
+        <ScrollToTop />
             <div className='App'>
                 <Navbar />
 
