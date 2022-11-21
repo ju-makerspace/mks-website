@@ -9,7 +9,7 @@ const Featured = () => {
         <div>
             <section className='featured-sec'>
                 <p className='featured-heading'>
-                    Let's talk about places we got <span>Featured</span> ✨
+                    Places we got <span>Featured</span> ✨
                 </p>
                 <Covid />
                 <SocialDistance />
