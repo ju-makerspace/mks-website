@@ -12,9 +12,9 @@ navbar {
     /* border: 2px solid black; */
     width: 100vw;
 
-    background: rgba(255, 255, 255, 0.7);
-    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.05);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+    /* box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.05); */
+    backdrop-filter: blur(20px);
     /* border-radius: 10px; */
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
 
