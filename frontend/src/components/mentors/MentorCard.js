@@ -3,12 +3,12 @@ const MentorCard = (props) => {
     return (
         <a href={link} target='_blank' className='mentor-card'>
             {/* pfp of mentor */}
-            <div
+            <div className="mentor-pfp"
                 style={{
                     border: '2px solid black',
                     borderRadius: '50rem',
-                    height: '4rem',
-                    width: '4rem',
+                    height: '3rem',
+                    width: '3rem',
                     background: `url(${pfp})`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
