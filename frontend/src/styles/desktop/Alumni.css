@@ -96,15 +96,91 @@ a {
     margin: auto;
     padding: 1rem;
     width: 80%;
+
+    /* border: 2px solid rebeccapurple; */
 }
 
 .alumni-desc {
     /* width: 80%; */
-
+    font-size: 1rem;
     font-style: italic;
-    font-size: 1.1rem;
 
-    margin: 0 auto;
+    text-align: center;
+
+    margin: auto;
+    padding: 0.5rem;
+    width: 80%;
 
     /* border: 2px solid red; */
 }
+
+/* Desktop: 1024px - 1200px */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+    .alumni-sec>.alumni-heading {
+        font-size: 45px;
+        margin-top: 30vh;
+    }
+
+    .alumni-card {
+        height: 80vh;
+
+        padding: 1.5rem;
+    }
+
+    .alumni-name {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .alumni-designation {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .alumni-desc {
+        font-size: 0.8rem;
+    }
+
+    .alumni-pfp {
+        height: 0.5rem !important;
+        width: 0.5rem !important;
+        padding: 4rem !important;
+    }
+}
+
+/* Tablet: 768px - 1023px */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .alumni-sec>.alumni-heading {
+        font-size: 45px;
+        margin-top: 30vh;
+    }
+
+    .alumni-card {
+        height: 80vh;
+
+        padding: 1.5rem;
+    }
+
+    .alumni-name {
+        font-size: 1.2rem;
+    }
+
+    .alumni-designation {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .alumni-desc {
+        font-size: 0.8rem;
+    }
+
+    .alumni-pfp {
+        height: 0.2rem !important;
+        width: 0.2rem !important;
+        padding: 4rem !important;
+    }
+}
+
+/* mobile: 481px - 767px */
+
+/* smaller phones: 480px */
