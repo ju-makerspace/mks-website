@@ -6,23 +6,65 @@
   /* height: 90vh; */
   background-color: black;
   color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem 0;
+
 }
 
 .footer-logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* border: 2px solid rebeccapurple; */
+  /* margin-top: 2rem; */
+  margin: 3rem 1rem;
+  margin-bottom: 0;
+  width: 95vw;
 }
 
-.footer section {
-  margin-top: 5rem;
-  width: 20vw;
+.footer-logo section {
+  width: 100%;
 }
 
 .sec-container {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10vw;
+  margin-right: 5vw;
+}
+
+.Domain {
+  /* border: 2px solid yellow; */
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: max-content;
+}
+
+.Domain ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.Domain ul li {
+  width: max-content;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+
+.Domain h1 {
+  margin: 0.2rem;
 }
 
 .footer .Hero {
@@ -32,27 +74,15 @@
 .Hero ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   list-style: none;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 
 .Hero ul li img {
   height: 1.5rem;
   cursor: pointer;
-}
-
-.Domain ul {
-  list-style: none;
-  margin-left: -14rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.Domain ul li {
-  margin-top: 1.5rem;
+  padding: 1rem;
 }
 
 .footer hr {
@@ -66,11 +96,16 @@
 
 .footer .copy-rights {
 
+  /* border: 2px solid rebeccapurple; */
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 30vw;
-  margin: auto;
+  /* height: max-content; */
+  margin: 0.1rem auto;
+  margin-bottom: 0;
+
 
   font-family: 'Segoe UI';
   font-style: normal;
