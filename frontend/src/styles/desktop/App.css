@@ -23,3 +23,15 @@
 span::selection {
   -webkit-text-fill-color: var(--selection-color);
 }
+
+.spinner {
+  /* background-color: rgb(18, 23, 30); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rebeccapurple; */
+  width: 100%;
+  height: 100vh;
+
+  transition: all 0.3s 0 ease;
+}
