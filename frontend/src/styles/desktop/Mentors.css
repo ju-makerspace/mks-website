@@ -74,3 +74,68 @@
     line-height: 85%;
     margin: 0.2rem auto;
 }
+
+/* Desktop: 1024px - 1200px */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+    .mentor-sec>.mentor-heading {
+        font-size: 45px;
+        margin-top: 30vh;
+    }
+
+    .mentor-card {
+        margin: 1.2rem;
+    }
+
+    .mentor-name {
+        font-size: 1.5rem;
+    }
+
+    .mentor-designation {
+        font-size: 0.8rem;
+        margin: 0.05rem auto;
+    }
+
+    .mentor-pfp {
+        height: 2% !important;
+        width: 2% !important;
+    }
+
+    .mentor-sec {
+        font-size: 0.9rem;
+    }
+}
+
+/* Tablet: 768px - 1023px */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .mentor-sec>.mentor-heading {
+        font-size: 45px;
+        margin-top: 30vh;
+    }
+
+    .mentor-card {
+        margin: 0.5rem;
+        padding: 1.5rem;
+    }
+
+    .mentor-name {
+        font-size: 1.2rem;
+    }
+
+    .mentor-designation {
+        font-size: 0.6rem;
+        margin: 0rem auto;
+    }
+
+    .mentor-pfp {
+        height: 1% !important;
+        width: 1% !important;
+    }
+
+    .mentor-sec {
+        font-size: 0.6rem;
+    }
+}
+
+/* mobile: 481px - 767px */
+
+/* smaller phones: 480px */
