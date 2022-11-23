@@ -20,15 +20,6 @@ const Footer = () => {
                             />
                             <ul>
                                 <li>
-                                    {/* <img
-                                        src={
-                                            process.env.PUBLIC_URL +
-                                            '/images/twitter.png'
-                                        }
-                                    ></img> */}
-                                    <SiTwitter />
-                                </li>
-                                <li>
                                     {/* <SlSocialLinkedin /> */}
                                     {/* <TiSocialLinkedinCircular /> */}
                                     <a
