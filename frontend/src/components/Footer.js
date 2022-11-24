@@ -65,8 +65,9 @@ const Footer = () => {
                                         '/images/discord.png'
                                     }
                                 ></img> */}
-                                    <IoMailSharp />
-                                    {/* <IoMailOutline className='social-icons' /> */}
+                                    <a href='mailto:Jumakerspace@gmail.com?&subject=This mail is subjected to...&body=Feel Free to ask any thing' target='_blank'>
+                                        <IoMailSharp />
+                                    </a>
                                 </li>
                             </ul>
                         </section>

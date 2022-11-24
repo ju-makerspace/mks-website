@@ -103,5 +103,26 @@ navbar .active {
 }
 
 /* mobile: 481px - 767px */
+@media all and (min-width: 481px) and (max-width: 767px) {
+    navbar ul {
+        display: none;
+    }
+
+    navbar {
+        border: 2px solid black;
+        width: 100vw;
+        height: 100%;
+        padding: auto 0;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
 
 /* smaller phones: 480px */
+@media all and (max-width: 480px) {
+    navbar ul {
+        display: none;
+    }
+}
