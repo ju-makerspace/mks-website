@@ -1,7 +1,7 @@
 /* navbar */
 navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     font-size: large;
     top: 0;
@@ -26,11 +26,14 @@ navbar {
 navbar ul {
     list-style: none;
     display: flex;
-    margin-right: 22%;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    /* margin-right: 22%; */
 }
 
 navbar ul li {
-    padding: 0 60px;
+    /* padding: 0 45px; */
     font-size: 1.5rem;
 }
 
@@ -42,7 +45,7 @@ navbar ul li a {
 }
 
 navbar img {
-    margin-left: 30px;
+    /* margin-left: 30px; */
     height: 3rem;
 }
 
@@ -56,12 +59,18 @@ navbar .active {
 
 /* Desktop: 1024px - 1200px */
 @media all and (min-width: 1024px) and (max-width: 1200px) {
-    navbar ul {
-        margin-right: 10%;
+    navbar ul li {
+        font-size: 1.3rem;
     }
 
+    navbar img {
+        height: 2.8rem;
+    }
+}
+
+/* Tablet: 768px - 1023px */
+@media all and (min-width: 768px) and (max-width: 900px) {
     navbar ul li {
-        padding: 0 2.5rem;
         font-size: 1.2rem;
     }
 
@@ -70,35 +79,14 @@ navbar .active {
     }
 }
 
-/* Tablet: 768px - 1023px */
-@media all and (min-width: 768px) and (max-width: 900px) {
-    navbar ul {
-        margin-right: 5%
-    }
-
-    navbar ul li {
-        padding: 0 1.59rem;
-        font-size: 1rem;
-    }
-
-    navbar img {
-        margin-left: 8px;
-        height: 2rem;
-    }
-}
-
 @media all and (min-width: 900px) and (max-width: 1024px) {
-    navbar ul {
-        margin-right: 5%
-    }
-
+ 
     navbar ul li {
-        padding: 0 2rem;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     navbar img {
-        height: 2.1rem;
+        height: 2.7rem;
     }
 }
 
