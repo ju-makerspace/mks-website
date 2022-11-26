@@ -23,6 +23,14 @@ navbar {
     transition: all 0.3s 0s ease;
 }
 
+.menu {
+    display: none;
+}
+
+.menuDown {
+    transition: all 0.3s 0 ease;
+}
+
 navbar ul {
     list-style: none;
     display: flex;
@@ -71,6 +79,7 @@ navbar .active {
 
 /* Tablet: 768px - 1023px */
 @media all and (min-width: 768px) and (max-width: 900px) {
+
     /* navbar ul {
         width: 75vw;
     } */
@@ -84,7 +93,7 @@ navbar .active {
 }
 
 @media all and (min-width: 900px) and (max-width: 1024px) {
- 
+
     navbar ul li {
         font-size: 1.3rem;
     }
@@ -97,22 +106,57 @@ navbar .active {
 /* mobile: 481px - 767px */
 /* @media all and (min-width: 481px) and (max-width: 767px) { */
 @media all and (max-width: 767px) {
-    navbar ul {
-        display: none;
+    .menu {
+        display: flex;
+        /* margin-right: -2rem; */
     }
 
     navbar {
-        border: 2px solid black;
+        /* border: 2px solid black; */
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
         width: 100vw;
-        height: 100%;
+        /* height: 100vh; */
+        height: max-content;
         padding: 1rem 0;
         margin: 0;
-        justify-content: center;
-        align-items: flex-start;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 90vw;
+        padding: 0;
+        margin: 0 1rem;
+    }
+
+    navbar ul {
+        /* display: none; */
+        flex-direction: column;
+    }
+
+    .menuDown {
+        display: none;
+    }
+
+    /* navbar img {
+        padding: 0rem;
+    } */
+
+    navbar li {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .menuIconDown {
+        rotate: 90deg;
     }
 }
 
