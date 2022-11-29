@@ -1,13 +1,12 @@
 import '../styles/desktop/Navbar.css';
 import { NavLink } from 'react-router-dom';
-import { FiMenu } from 'react-icons/fi';
 import { HiMenu, HiMenuAlt3 } from 'react-icons/hi';
 import { useState } from 'react';
 import { IconContext } from 'react-icons/lib';
 
 const Navbar = () => {
     const [color, setColor] = useState('black');
-    const [popdown, setPopdown] = useState(false);
+    const [popdown, setPopdown] = useState(true);
     const toggle = () => {
         popdown ? setPopdown(false) : setPopdown(true);
         color === 'black' ? setColor('red') : setColor('black');
