@@ -11,7 +11,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 18% 30%;
+  margin: 20% auto;
+  padding: 0 25%;
+  /* margin: 18% 30%; */
 
 
   font-family: 'Segoe UI';
@@ -68,8 +70,8 @@
 /* Desktop: 1024px - 1200px */
 @media all and (min-width: 1024px) and (max-width: 1200px) {
   .hero-text {
-    margin: 20% auto;
-    padding: 0 25%;
+    /* margin: 20% auto; */
+    /* padding: 0 25%; */
     font-size: 60px;
   }
 
@@ -93,8 +95,8 @@
 /* Tablet: 768px - 1023px */
 @media all and (min-width: 768px) and (max-width: 1000px) {
   .hero-text {
-    margin: 22% auto;
-    padding: 0 25%;
+    /* margin: 22% auto; */
+    /* padding: 0 25%; */
     font-size: 50px;
     line-height: 82%;
   }
@@ -119,8 +121,8 @@
 
 @media all and (min-width: 1000px) and (max-width: 1024px) {
   .hero-text {
-    margin: 22% auto;
-    padding: 0 30%;
+    /* margin: 22% auto; */
+    /* padding: 0 30%; */
     font-size: 50px;
     line-height: 85%;
   }
@@ -143,5 +145,29 @@
 }
 
 /* mobile: 481px - 767px */
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .hero-text {
+    margin: 27% auto;
+    padding: 0 16%;
+    font-size: 50px;
+    line-height: 85%;
+  }
+
+  .gear {
+    height: 12vh;
+    top: 30%;
+  }
+
+  .chip {
+    height: 12vh;
+    top: 19%;
+    right: 5%;
+  }
+
+  .laptop {
+    height: 12vh;
+    right: 30%;
+  }
+}
 
 /* smaller phones: 480px */
