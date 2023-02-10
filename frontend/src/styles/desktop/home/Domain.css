@@ -6,6 +6,7 @@
     margin: 2% auto;
     padding: auto;
     flex-direction: column;
+    border: 2px solid rebeccapurple;
 }
 
 .domain-text {
@@ -158,5 +159,34 @@
 }
 
 /* mobile: 481px - 767px */
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .domain-text {
+        font-size: 50px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    .domain_list {
+        margin: 2.5px auto;
+
+        column-gap: 3vw;
+        row-gap: 3vh;
+    }
+
+    .domain_item {
+        padding: 0.4rem 1rem;
+        border-radius: 30px;
+        font-size: 30px;
+    }
+
+    .domain_desc {
+        font-size: 1.2rem;
+        margin-top: 2px;
+    }
+
+    .domain_desc img {
+        height: 2.2rem;
+    }
+}
 
 /* smaller phones: 480px */
