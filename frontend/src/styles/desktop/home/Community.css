@@ -7,6 +7,7 @@
   margin: 2% auto;
   padding: auto;
   flex-direction: column;
+  border: 2px solid rebeccapurple;
 }
 
 .community-text {
@@ -67,18 +68,9 @@
 .join-community:hover {
   transition: all 0.15s 0s ease-in-out;
   border-width: 2px;
-  /* background: var(--grad3); */
+  background: var(--grad3);
   border-radius: 20rem;
   color: white;
-  background: url('https://media.giphy.com/media/blSTtZehjAZ8I/giphy.gif');
-  /* background: url('https://media.tenor.com/NHhjux9rNKcAAAAC/amir-liaquat-ah-ha-ha.gif'); */
-  /* background: url('https://media.tenor.com/gsY_eOOJGj0AAAAC/pakistani-fan.gif'); */
-  /* background: url('https://media.tenor.com/9IVmLRYNCrQAAAAd/bhagam-bhag-aeyy-heyy.gif'); */
-  /* background: url('https://i.gifer.com/3zM0.gif'); */
-  /* background: url('https://i.pinimg.com/originals/35/a1/d7/35a1d707e4be7cf2b1d0f8dba00003cc.gif'); */
-  /* background: url('https://media.giphy.com/media/yr7n0u3qzO9nG/giphy.gif'); */
-  /* background: url('https://drive.google.com/uc?export=view&id=1D8fvDasAzHayTWgQ9UqIDGomGyaxQeHw'); */
-  background-size: cover;
   padding: 2rem;
   /* padding: 5rem 1rem; */
   /* height: 50vh; */
@@ -116,5 +108,20 @@
 }
 
 /* mobile: 481px - 767px */
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .community-text {
+    /* font-size: 60px; */
+    margin: 27% auto;
+    padding: 0 16%;
+    font-size: 50px;
+    line-height: 85%;
+  }
+
+  .join-community {
+    font-size: 25px;
+    padding: 0.2rem;
+    border: 3px solid #000000;
+  }
+}
 
 /* smaller phones: 480px */
