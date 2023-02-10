@@ -12,6 +12,7 @@
     font-weight: 900;
     font-size: 50px;
     line-height: 85%;
+    padding: 1rem;
 
     margin-top: 25vh;
 }
@@ -43,8 +44,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    margin: 0 1rem;
-    padding: 0 1rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .mentor-name {

@@ -43,7 +43,9 @@ navbar ul {
 
 navbar ul li {
     /* padding: 0 45px; */
+    padding: 1rem;
     font-size: 1.5rem;
+    /* border: 2px solid rebeccapurple; */
 }
 
 navbar ul li a {
