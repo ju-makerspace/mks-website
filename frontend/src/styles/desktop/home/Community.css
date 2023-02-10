@@ -116,5 +116,19 @@
 }
 
 /* mobile: 481px - 767px */
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .community-text {
+    /* font-size: 60px; */
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding: 0 20%;
+  }
+
+  .join-community {
+    font-size: 25px;
+    padding: 0.2rem;
+    border: 3px solid #000000;
+  }
+}
 
 /* smaller phones: 480px */

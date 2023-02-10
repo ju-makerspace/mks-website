@@ -112,7 +112,7 @@ navbar .active {
     }
 
     navbar {
-        /* border: 2px solid black; */
+        border: 2px solid black;
         top: 0;
         bottom: 0;
         left: 0;
