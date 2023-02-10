@@ -12,6 +12,8 @@
   --selection-color: rgb(246, 253, 148);
   --selection-bg: rgba(40, 27, 218, 0.814);
 
+  overflow-x: hidden;
+
   scroll-behavior: smooth;
 }
 
