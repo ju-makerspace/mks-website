@@ -28,7 +28,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 119%;
+    /* line-height: 119%; */
 }
 
 .about-content>ul>li {
@@ -92,7 +92,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
-    line-height: 85%;
+    /* line-height: 85%; */
 
     margin-top: 5rem;
     margin-left: 2rem;
@@ -103,7 +103,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 119%;
+    /* line-height: 119%; */
 
 
     margin-top: 1rem;
