@@ -1,66 +1,84 @@
 import AlumniCard from './AlumniCard';
 import '../../styles/desktop/Alumni.css';
+import mohit_johar from '../../asset/alumni/mohit joher.jpeg';
+import naveen_kumar from '../../asset/alumni/naveen kumar.jpeg';
+import pradeep_kumar from '../../asset/alumni/destroja praddep kumar.jpeg';
+import devendra_suthar from '../../asset/alumni/devendra suthar.jpeg';
+import shubham_singh from '../../asset/alumni/shubham singh.jpeg';
+import aditya_tiwari from '../../asset/alumni/aditya tiwari.jpeg';
+import akshat_jain from '../../asset/alumni/akshat jain.jpeg';
+import wasim_parsani from '../../asset/alumni/wasim parsani.jpeg';
+import ayushi_bansal from '../../asset/alumni/ayushi bansal.jpeg';
+import kavisha_manchanda from '../../asset/alumni/kavisha manchanda.jpeg';
 
 const Alumni = () => {
     const alum = [
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQHzv9XDyFuBKw/profile-displayphoto-shrink_800_800/0/1662620499006?e=1672272000&v=beta&t=AFjt4poc8W_wJv0z9LHUO1kUOe1sTcbhQej03oseZMg',
+            pfp: mohit_johar,
+            name: 'Mohit Joher',
+            designation: 'Founder of JU MakerSpace',
+            desc: 'JU Makerspace is a space with no restrictions and limitations',
+            link: 'https://www.linkedin.com/in/1501naveenkumar/',
+        },
+        {
+            pfp: naveen_kumar,
             name: 'Naveen Kumar',
             designation: 'SDE1 @ HPE',
             desc: 'JU Makerspace is a space with no restrictions and limitations',
             link: 'https://www.linkedin.com/in/1501naveenkumar/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/D5603AQG38SPXhYr3Pg/profile-displayphoto-shrink_800_800/0/1639333076231?e=1672272000&v=beta&t=DlYdIpZ9dtf9WdbVaUveXcLEbpv8xcQOT5zbEREz2E8',
+            pfp: pradeep_kumar,
             name: 'Detroja Pradeep Kumar',
-            designation: 'Masters in Advanced Computer Science @ The University of Sheffield, UK',
+            designation:
+                'Masters in Advanced Computer Science @ The University of Sheffield, UK',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/detroja-pradeep-kumar/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQHFNQn38LwL_Q/profile-displayphoto-shrink_800_800/0/1630431664858?e=1672272000&v=beta&t=JcEIhvFEz51QB_mAdvwT70ZZg0VtW-8netkER1Znq0k',
+            pfp: devendra_suthar,
             name: 'Devendra Suthar',
             designation: 'Assistant System Engineer @ TCS',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/linkdev/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQF-h8ynuKph5Q/profile-displayphoto-shrink_800_800/0/1662921483258?e=1672272000&v=beta&t=EpSDR8v5FmLsBOZWnMq0JckDjN7vv8P0FZCosdzWQxA',
+            pfp: shubham_singh,
             name: 'Shubham Singh',
             designation: 'Systems Software Engineer 1 @ HPE',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/shubham-singh-974d/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQE5SBmapyOq-A/profile-displayphoto-shrink_800_800/0/1658212191966?e=1672272000&v=beta&t=-AEaeFpt46XENhl-EDp7aGhOkFxwPkGsLSy5D02OA2I',
+            pfp: aditya_tiwari,
             name: 'Aditya Tiwari',
             designation: 'Software Engineer @ Intuit',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/tiwari-aditya/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQGpguL92sF5PA/profile-displayphoto-shrink_800_800/0/1611054945258?e=1673481600&v=beta&t=oGq1A0Xgap5vQej5gjIJFXWBamxoIC6wkP9AReWgrEs',
+            pfp: akshat_jain,
             name: 'Akshat Jain',
             designation: 'Masters @ The University of Sheffield, UK',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/i-akshat-jain/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQERVsS18eUpUQ/profile-displayphoto-shrink_800_800/0/1643043410579?e=1672272000&v=beta&t=03iTJaTsE8BehSj5PH-XZ9-0o84jcS_pE8Q-kxN5eLI',
+            pfp: wasim_parsani,
             name: 'Wasim Parsani',
             designation: 'SDE @ Amazon',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/wasim-parsani-78385b185/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQGOA37tQFm6Dg/profile-displayphoto-shrink_800_800/0/1642570115254?e=1672272000&v=beta&t=uK7kfFONRwp0ItY1gc5BJ_B8H4HIG-o2YXbnW4YVqDs',
+            pfp: ayushi_bansal,
             name: 'Ayushi Bansal',
             designation: 'Support Engineer @ Amazon',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://www.linkedin.com/in/ayushi-bansal-152974212/',
         },
         {
-            pfp: 'https://media-exp1.licdn.com/dms/image/C4E03AQFePPekkFqXyw/profile-displayphoto-shrink_800_800/0/1633499585281?e=1672272000&v=beta&t=M6Nu74w6hYqtgxTK902kcijoHWtC1udV5emG0fCRGqw',
+            pfp: kavisha_manchanda,
             name: 'Kavisha Manchanda',
             designation: 'Senior Analyst @ Capgemini',
             desc: 'Lorem ipsum dolor sit tempor incididunt ut labore et dolore magna aliqua.',

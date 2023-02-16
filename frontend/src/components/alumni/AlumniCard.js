@@ -1,22 +1,25 @@
 const AlumniCard = (props) => {
     const { pfp, name, designation, desc, link } = props.data;
     return (
-        <a href={link} target='_blank' className='alumni-card'>
+        <a href={link} target='_blank' rel='noreferrer' className='alumni-card'>
             {/* pfp of alumni */}
-            <div
+            <img
+                src={pfp}
+                alt={name}
                 className='alumni-pfp'
                 style={{
                     border: '2px solid black',
                     borderRadius: '50rem',
-                    height: '1rem',
-                    width: '1rem',
-                    background: `url(${pfp})`,
+                    height: '80%',
+                    width: 'auto',
+                    // background: `url(${pfp})`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
-                    padding: '5rem',
+                    padding: '0rem',
                     margin: 'auto',
                 }}
-            ></div>
+            ></img>
+            {/* <img src={pfp} alt={name} /> */}
 
             {/* name of alumni */}
             <h1 className='alumni-name'>{name}</h1>
