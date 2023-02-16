@@ -190,3 +190,38 @@
 }
 
 /* smaller phones: 480px */
+@media all and (max-width: 481px) {
+    .domain-text {
+        margin: 10% auto;
+        padding: 0 15%;
+        font-size: 30px;
+        line-height: 85%;
+    }
+
+    .domain-text>span {
+        line-height: normal;
+        margin-top: -5px;
+    }
+
+    .domain_list {
+        margin: 2.5px auto;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5vw;
+        row-gap: 3vh;
+    }
+
+    .domain_item {
+        padding: 0.2rem 1rem;
+        border-radius: 30px;
+        font-size: 25px;
+    }
+
+    .domain_desc {
+        font-size: 0.9rem;
+        margin-top: 2px;
+    }
+
+    .domain_desc img {
+        height: 1.5rem;
+    }
+}
