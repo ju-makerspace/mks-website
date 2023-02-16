@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  border: 2px solid rebeccapurple;
+  /* border: 2px solid rebeccapurple; */
 }
 
 .hero-text {
@@ -172,3 +172,33 @@
 }
 
 /* smaller phones: 480px */
+@media all and (max-width: 481px) {
+  .hero-text {
+    margin: 70% auto;
+    padding: 0 15%;
+    font-size: 30px;
+    line-height: 85%;
+  }
+
+  .hero-text>span {
+    line-height: normal;
+    margin-top: -5px;
+  }
+
+  .gear {
+    height: 10vh;
+    top: 30%;
+  }
+
+  .chip {
+    height: 10vh;
+    top: 18%;
+    right: 5%;
+  }
+
+  .laptop {
+    height: 10vh;
+    right: 30%;
+    top: 60%;
+  }
+}
