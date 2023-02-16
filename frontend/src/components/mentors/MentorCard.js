@@ -1,21 +1,24 @@
 const MentorCard = (props) => {
     const { pfp, name, designation, desc, link } = props.data;
     return (
-        <a href={link} target='_blank' className='mentor-card'>
+        <a href={link} target='_blank' rel='noreferrer' className='mentor-card'>
             {/* pfp of mentor */}
-            <div className="mentor-pfp"
+            <img
+                src={pfp}
+                alt={name}
+                className='alumni-pfp'
                 style={{
                     border: '2px solid black',
                     borderRadius: '50rem',
-                    height: '3rem',
-                    width: '3rem',
-                    background: `url(${pfp})`,
+                    height: '60%',
+                    width: 'auto',
+                    // background: `url(${pfp})`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
-                    padding: '8rem',
+                    padding: '0rem',
                     margin: 'auto',
                 }}
-            ></div>
+            ></img>
 
             {/* name of mentor */}
             <h1 className='mentor-name'>{name}</h1>

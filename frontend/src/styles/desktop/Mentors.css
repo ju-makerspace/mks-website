@@ -53,9 +53,8 @@
     font-style: normal;
     font-weight: 800;
     font-size: 2rem;
-    line-height: 85%;
-    margin: 0.5rem auto;
-    padding: 1rem;
+    /* line-height: 85%; */
+    margin: auto;
 
     transition: all 0.2s 0s ease-in;
 }
@@ -72,8 +71,13 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
-    line-height: 85%;
-    margin: 0.2rem auto;
+    /* line-height: 85%; */
+    margin: auto;
+}
+
+.mentor-desc {
+    width: 70%;
+    text-align: center;
 }
 
 /* Desktop: 1024px - 1200px */

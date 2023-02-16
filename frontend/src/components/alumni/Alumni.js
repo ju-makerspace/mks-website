@@ -1,5 +1,6 @@
 import AlumniCard from './AlumniCard';
 import '../../styles/desktop/Alumni.css';
+import mohit_johar from '../../asset/alumni/mohit joher.jpeg';
 import naveen_kumar from '../../asset/alumni/naveen kumar.jpeg';
 import pradeep_kumar from '../../asset/alumni/destroja praddep kumar.jpeg';
 import devendra_suthar from '../../asset/alumni/devendra suthar.jpeg';
@@ -12,6 +13,13 @@ import kavisha_manchanda from '../../asset/alumni/kavisha manchanda.jpeg';
 
 const Alumni = () => {
     const alum = [
+        {
+            pfp: mohit_johar,
+            name: 'Mohit Joher',
+            designation: 'Founder of JU MakerSpace',
+            desc: 'JU Makerspace is a space with no restrictions and limitations',
+            link: 'https://www.linkedin.com/in/1501naveenkumar/',
+        },
         {
             pfp: naveen_kumar,
             name: 'Naveen Kumar',
