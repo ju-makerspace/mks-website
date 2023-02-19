@@ -193,8 +193,8 @@
 @media all and (max-width: 481px) {
     .domain-text {
         margin: 0 auto;
-        padding: 0 5%;
-        font-size: 35px;
+        padding: 0;
+        font-size: 40px;
         line-height: 85%;
     }
 
