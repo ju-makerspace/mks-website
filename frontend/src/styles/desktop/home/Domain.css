@@ -192,9 +192,9 @@
 /* smaller phones: 480px */
 @media all and (max-width: 481px) {
     .domain-text {
-        margin: auto;
-        padding: 0 15%;
-        font-size: 30px;
+        margin: 0 auto;
+        padding: 0 5%;
+        font-size: 35px;
         line-height: 85%;
     }
 
@@ -204,24 +204,25 @@
     }
 
     .domain_list {
-        margin: 2.5px auto;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 5vw;
-        row-gap: 3vh;
+        row-gap: 2vh;
+        margin: 8% auto;
     }
 
     .domain_item {
-        padding: 0.2rem 1rem;
+        padding: 0 1rem;
         border-radius: 30px;
         font-size: 25px;
     }
 
     .domain_desc {
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-top: 2px;
+        margin-bottom: 25vh;
     }
 
     .domain_desc img {
-        height: 1.5rem;
+        height: 1.8rem;
     }
 }

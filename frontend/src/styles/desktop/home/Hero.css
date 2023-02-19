@@ -174,9 +174,10 @@
 /* smaller phones: 480px */
 @media all and (max-width: 481px) {
   .hero-text {
-    margin: 70% auto;
-    padding: 0 15%;
-    font-size: 30px;
+    margin-top: 90%;
+    margin-bottom: 50vh;
+    padding: 0 5%;
+    font-size: 35px;
     line-height: 85%;
   }
 
@@ -186,19 +187,19 @@
   }
 
   .gear {
-    height: 10vh;
-    top: 30%;
+    height: 12vh;
+    top: 35%;
   }
 
   .chip {
-    height: 10vh;
-    top: 18%;
-    right: 5%;
+    height: 12vh;
+    top: 22%;
+    right: 10%;
   }
 
   .laptop {
-    height: 10vh;
+    height: 12vh;
     right: 30%;
-    top: 60%;
+    top: 70%;
   }
 }
