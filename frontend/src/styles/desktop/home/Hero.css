@@ -46,8 +46,29 @@
   right: 91.39%;
   top: 35%;
   bottom: 64.05%;
-
+  animation-name: rotateGear;
+  animation-delay: 100ms;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
   transition: all 1s 0s ease-in-out;
+}
+
+@keyframes rotateGear {
+  0% {
+    transform: rotate(0);
+  }
+
+  80% {
+    transform: rotate(500deg);
+  }
+
+  90% {
+    transform: rotate(calc(470deg));
+  }
+
+  100% {
+    transform: rotate(480deg);
+  }
 }
 
 .gear:hover {
