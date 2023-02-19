@@ -174,7 +174,7 @@
 /* smaller phones: 480px */
 @media all and (max-width: 481px) {
   .hero-text {
-    margin-top: 90%;
+    margin-top: 100%;
     margin-bottom: 50vh;
     padding: 0 5%;
     font-size: 35px;
