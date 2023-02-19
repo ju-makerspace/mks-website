@@ -1,5 +1,4 @@
-
-import Carousel from './home/Carousel';
+import Projects from './home/Projects';
 import Hero from './home/Hero';
 import Domain from './home/Domain';
 import Community from './home/Community';
@@ -9,7 +8,7 @@ const Home = () => {
         <div className='home'>
             <Hero />
             <Domain />
-            <Carousel />
+            <Projects />
             <Community />
         </div>
     );
