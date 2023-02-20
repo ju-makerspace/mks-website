@@ -44,6 +44,8 @@
 .f-box {
     border: 2px solid black;
     padding: 0.2rem;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .featured-item {
@@ -92,6 +94,12 @@
     justify-content: center;
     align-items: center;
     margin: 1rem auto;
+}
+
+.featured-collab>img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 /* Desktop: 1024px - 1200px */
@@ -205,13 +213,8 @@
         font-size: 18px;
         margin: auto;
     }
-    
+
     .featured-proof {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding: auto;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -222,8 +225,9 @@
     .featured-covid-badge {
         grid-template-columns: 1fr;
     }
+
     .featured-covid-badge>img {
-        width:100%;
+        width: 100%;
     }
 
     .youtube-embed {

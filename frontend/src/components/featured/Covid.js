@@ -1,4 +1,6 @@
 import { TwitterTweetEmbed } from 'react-twitter-embed';
+import covid_news1 from '../../asset/featured/covid-news-1.jpg';
+import covid_news2 from '../../asset/featured/covid-news-2.jpg';
 
 const Covid = () => {
     return (
@@ -23,14 +25,8 @@ const Covid = () => {
                             tweetId='1248130891118825472'
                         />
                     </div>
-                    <img
-                        className='f-box'
-                        src='https://jecrcuniversity.edu.in/umakerspace12345/Page-8-Image-12.jpg?width=400'
-                    />
-                    <img
-                        className='f-box'
-                        src='https://jecrcuniversity.edu.in/umakerspace12345/Page-5-Image-5.jpg'
-                    />
+                    <img className='f-box' src={covid_news1} alt='news1' />
+                    <img className='f-box' src={covid_news2} alt='news2' />
                 </div>
             </div>
         </div>
