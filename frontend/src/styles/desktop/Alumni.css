@@ -7,7 +7,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
     flex-direction: column;
 }
 
@@ -123,8 +123,7 @@ a {
     }
 
     .alumni-card {
-        height: 80vh;
-
+        height: 50vh;
         padding: 1.5rem;
     }
 
@@ -143,9 +142,8 @@ a {
     }
 
     .alumni-pfp {
-        height: 0.5rem !important;
-        width: 0.5rem !important;
-        padding: 4rem !important;
+        height: 30vh !important;
+        width: 30vh !important;
     }
 }
 
@@ -157,9 +155,8 @@ a {
     }
 
     .alumni-card {
-        height: 80vh;
-
-        padding: 1.5rem;
+        height: max-content;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .alumni-name {
@@ -176,12 +173,78 @@ a {
     }
 
     .alumni-pfp {
-        height: 0.2rem !important;
-        width: 0.2rem !important;
-        padding: 4rem !important;
+        height: 30vh !important;
+        width: 30vh !important;
     }
 }
 
 /* mobile: 481px - 767px */
+@media all and (min-width: 481px) and (max-width: 767px) {
+    .alumni-sec>.alumni-heading {
+        font-size: 40px;
+        margin-top: 20vh;
+    }
+
+    .alumni-card {
+        height: max-content;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .alumni-matrix {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .alumni-name {
+        font-size: 1.5rem;
+    }
+
+    .alumni-designation {
+        font-size: 1rem;
+    }
+
+    .alumni-desc {
+        font-size: 1rem;
+    }
+
+    .alumni-pfp {
+        height: 35vh !important;
+        width: 35vh !important;
+    }
+}
 
 /* smaller phones: 480px */
+@media all and (max-width: 481px) {
+    .alumni-sec>.alumni-heading {
+        font-size: 40px;
+        margin-top: 25vh;
+    }
+
+    .alumni-card {
+        height: max-content;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .alumni-matrix {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .alumni-name {
+        font-size: 1.5rem;
+    }
+
+    .alumni-designation {
+        font-size: 1rem;
+    }
+
+    .alumni-desc {
+        font-size: 1rem;
+    }
+
+    .alumni-pfp {
+        height: 35vh !important;
+        width: 35vh !important;
+    }
+}
