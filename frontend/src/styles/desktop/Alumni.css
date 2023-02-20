@@ -223,12 +223,12 @@ a {
     .alumni-card {
         height: max-content;
         grid-template-columns: repeat(1, 1fr);
-
+        margin: 1rem auto;
     }
 
     .alumni-matrix {
         grid-template-columns: repeat(1, 1fr);
-
+        margin: auto;
     }
 
     .alumni-name {
