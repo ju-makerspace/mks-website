@@ -1,3 +1,4 @@
+import distance from '../../asset/featured/detector.jpg';
 const SocialDistance = () => {
     return (
         <div className='featured'>
@@ -15,10 +16,7 @@ const SocialDistance = () => {
             </p>
             <div className='featured-item'>
                 <div className='featured-covid-badge'>
-                    <img
-                        className='f-box'
-                        src='https://jecrcuniversity.edu.in/umakerspace12345/Page-13-Image-17.jpg?widht=400'
-                    />
+                    <img className='f-box' src={distance} alt='covid-distance dectector' />
                     <div className='youtube-embed'>
                         <iframe
                             className='f-box'
