@@ -193,7 +193,39 @@
 }
 
 /* smaller phones: 480px */
-@media all and (max-width: 481px) {
+@media all and (min-width: 360px) and (max-width: 481px) {
+  .hero-text {
+    margin-top: 90%;
+    margin-bottom: 50vh;
+    padding: 0 5%;
+    font-size: 40px;
+    line-height: 85%;
+  }
+
+  .hero-text>span {
+    line-height: normal;
+    margin-top: -5px;
+  }
+
+  .gear {
+    height: 12vh;
+    top: 36%;
+  }
+
+  .chip {
+    height: 12vh;
+    top: 22%;
+    right: 10%;
+  }
+
+  .laptop {
+    height: 12vh;
+    right: 30%;
+    top: 75%;
+  }
+}
+
+@media all and (max-width: 361px) {
   .hero-text {
     margin-top: 90%;
     margin-bottom: 50vh;

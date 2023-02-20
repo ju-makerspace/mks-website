@@ -122,7 +122,36 @@
 }
 
 /* smaller phones: 480px */
-@media all and (max-width: 481px) {
+@media all and (min-width: 360px) and (max-width: 481px) {
+  .community-text {
+    /* font-size: 60px; */
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 0 10%;
+    font-size: 40px;
+    line-height: 85%;
+  }
+
+  .community-text>span {
+    line-height: normal;
+    margin-top: -5px;
+  }
+
+  .join-community {
+    font-size: 20px;
+    margin: 2rem 1rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    width: 50%;
+
+    border: 3px solid #000000;
+  }
+}
+
+@media all and (max-width: 361px) {
   .community-text {
     /* font-size: 60px; */
     margin: 0 auto;
