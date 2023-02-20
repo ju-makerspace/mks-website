@@ -6,7 +6,7 @@ const MentorCard = (props) => {
             <img
                 src={pfp}
                 alt={name}
-                className='alumni-pfp'
+                className='mentor-pfp'
                 style={{
                     border: '2px solid black',
                     borderRadius: '50rem',

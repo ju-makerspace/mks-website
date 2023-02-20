@@ -13,7 +13,7 @@
     font-size: 50px;
     line-height: 85%;
     padding: 1rem;
-
+    text-align: center;
     margin-top: 25vh;
 }
 
@@ -101,8 +101,9 @@
     }
 
     .mentor-pfp {
-        height: 2% !important;
-        width: 2% !important;
+        height: 52vh !important;
+        width: 52vh !important;
+        margin: 1rem !important;
     }
 
     .mentor-sec {
@@ -132,8 +133,9 @@
     }
 
     .mentor-pfp {
-        height: 1% !important;
-        width: 1% !important;
+        height: 50vh !important;
+        width: 50vh !important;
+        margin: 1rem !important;
     }
 
     .mentor-sec {
@@ -142,5 +144,82 @@
 }
 
 /* mobile: 481px - 767px */
+@media all and (min-width: 481px) and (max-width: 767px) {
+    .mentor-sec>.mentor-heading {
+        font-size: 40px;
+        margin-top: 20vh;
+    }
+
+    .mentor-card {
+        margin: 0.5rem auto;
+        padding: 0;
+        width: 80vw;
+    }
+
+    .mentor-matrix {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .mentor-name {
+        font-size: 1.5rem;
+    }
+
+    .mentor-designation {
+        font-size: 1rem;
+        width: 80%;
+        margin: 0rem;
+        text-align: center;
+    }
+
+    .mentor-pfp {
+        height: 35vh !important;
+        width: 35vh !important;
+        margin: 1rem !important;
+    }
+
+    .mentor-sec {
+        font-size: 0.5rem;
+    }
+}
 
 /* smaller phones: 480px */
+@media all and (max-width: 481px) {
+    .mentor-sec>.mentor-heading {
+        font-size: 40px;
+        margin-top: 25vh;
+    }
+
+    .mentor-card {
+        margin: 0.5rem auto;
+        padding: 0;
+        width: 90vw;
+    }
+
+    .mentor-matrix {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .mentor-name {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: auto !important;
+        width: max-content;
+    }
+
+    .mentor-designation {
+        font-size: 1rem;
+        width: 80%;
+        margin: 0rem;
+        text-align: center;
+    }
+
+    .mentor-pfp {
+        height: 30vh !important;
+        width: 30vh !important;
+        margin: 1rem !important;
+    }
+
+    .mentor-sec {
+        font-size: 0.5rem;
+    }
+}
